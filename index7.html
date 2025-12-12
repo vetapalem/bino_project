@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="information AI">
+    <meta name="keywords"
+        content="Infromation chart hotels localLocal Businesses Healthcare Professional Services Home Services Travel & Tours Transportation ">
+    <meta name="author" content="krishna">
+    <title>Bino | Find Anything Anywhere on WhatsApp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles7.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor follower"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed w-full py-4 px-6 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <div
+                    class="w-10 h-10 rounded-xl bg-gradient-to-r from-[#7e57c2] to-[#26a69a] flex items-center justify-center mr-3">
+                    <span class="font-bold text-white text-lg">B</span>
+                </div>
+                <span
+                    class="text-xl md:text-2xl font-bold bg-gradient-to-r from-[#8e7aff] to-[#33ccff] bg-clip-text text-transparent hidden-mobile">Bino</span>
+            </div>
+
+            <div class="hidden md:flex items-center space-x-10 nav-menu">
+                <a href="#categories" class="nav-link font-medium">Categories</a>
+                <a href="#why-bino" class="nav-link font-medium">Why Bino</a>
+                <a href="#how-it-works" class="nav-link font-medium">How It Works</a>
+                <a href="#get-started" class="nav-link font-medium">Get Started</a>
+            </div>
+            <a href="https://wa.me/919800081110?text=Hello%20from%20my%20website" alt="title link">
+
+                <button
+                    class="whatsapp-gradient text-white px-6 py-3 rounded-full font-medium btn-ripple hidden-mobile">
+                    <i class="fab fa-whatsapp mr-2"></i>Start on WhatsApp
+                </button>
+            </a>
+
+            <button class="md:hidden text-white mobile-menu-btn">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-top" id="scrollToTop">
+        <i class="fas fa-arrow-up text-lg"></i>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center pt-20 relative overflow-hidden section-padding">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="relative z-10">
+                <span
+                    class="inline-block px-4 py-1 rounded-full bg-gradient-to-r from-purple-900/30 to-cyan-900/30 text-sm font-medium mb-6">
+                    No Apps • No Complexity • Instant Offers
+                </span>
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 animate-fade-in">
+                    <span class="block">Find Anything</span>
+                    <span
+                        class="block bg-gradient-to-r from-[#8e7aff] to-[#33ccff] bg-clip-text text-transparent">Anywhere</span>
+                </h1>
+                <p class="text-xl text-gray-300 mb-10 max-w-2xl animate-fade-in animation-delay-300">
+                    Your intelligent WhatsApp marketplace that connects you with the best products and services from our
+                    network of businesses. No apps, no complexity - just instant offers.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 animate-fade-in animation-delay-500">
+                    <button
+                        class="whatsapp-gradient text-white px-8 py-4 rounded-xl text-lg font-semibold btn-ripple flex items-center justify-center">
+                        <a href="https://wa.me/919800081110?text=Hello%20" alt="server down">
+                            <i class="fab fa-whatsapp mr-3 text-xl"></i>
+                            Start Searching Now
+
+
+
+
+                        </a>
+
+                    </button>
+                    <button
+                        class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-xl text-lg font-medium border border-white/20 hover:bg-white/20 transition-all">
+                        How It Works <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                </div>
+
+                <div class="mt-16">
+                    <h3 class="font-semibold mb-4 text-lg">Try these examples:</h3>
+                    <div class="space-y-3">
+                        <div class="example-query p-3 rounded-r-lg rounded-b-lg cursor-pointer">
+                            <p class="font-medium">"Show me gaming laptops under $1500"</p>
+                        </div>
+                        <div class="example-query p-3 rounded-r-lg rounded-b-lg cursor-pointer">
+                            <p class="font-medium">"Need custom birthday cake for 30 people, superhero theme"</p>
+                        </div>
+                        <div class="example-query p-3 rounded-r-lg rounded-b-lg cursor-pointer">
+                            <p class="font-medium">"Moving 2-bedroom apartment next weekend"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative animate-float">
+                <div
+                    class="absolute -top-10 -right-10 w-64 h-64 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob">
+                </div>
+                <div
+                    class="absolute -bottom-10 -left-10 w-64 h-64 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000">
+                </div>
+                <div class="relative glass-card p-5 border border-purple-500/20">
+                    <div class="flex items-center p-4 border-b border-white/10">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-gradient-to-r from-purple-600 to-cyan-500 flex items-center justify-center mr-3">
+                            <i class="fab fa-whatsapp text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Bino Assistant</h3>
+                            <p class="text-xs text-green-400">Online</p>
+                        </div>
+                    </div>
+
+                    <div class="chat-container p-4 space-y-4 h-96">
+                        <div class="chat-message chat-received" style="animation-delay: 0.1s">
+                            <p>Hello! I'm Bino, your WhatsApp search assistant. What would you like to find today?</p>
+                        </div>
+
+                        <div class="chat-message chat-sent" style="animation-delay: 0.3s">
+                            <p>Show me gaming laptops under $1500</p>
+                        </div>
+
+                        <div class="chat-message chat-received" style="animation-delay: 0.5s">
+                            <p>Great! I found 12 gaming laptops under $1500. Here are the top options:</p>
+                            <ul class="mt-2 space-y-1 text-sm">
+                                <li>• ASUS ROG Strix G15 - $1,299</li>
+                                <li>• Acer Nitro 5 - $999</li>
+                                <li>• Lenovo Legion 5 - $1,199</li>
+                            </ul>
+                            <p class="mt-2">Tap any option to see details or place your order directly on WhatsApp!</p>
+                        </div>
+
+                        <div class="chat-message chat-sent" style="animation-delay: 0.7s">
+                            <p>Tell me more about the ASUS ROG Strix G15</p>
+                        </div>
+
+                        <div class="chat-message chat-received" style="animation-delay: 0.9s">
+                            <div class="flex items-start">
+                                <div class="w-16 h-16 bg-gray-800 rounded-lg mr-3 flex-shrink-0"></div>
+                                <div>
+                                    <p class="font-medium">ASUS ROG Strix G15</p>
+                                    <p class="text-sm text-gray-300">• AMD Ryzen 9 5900HX</p>
+                                    <p class="text-sm text-gray-300">• NVIDIA RTX 3070</p>
+                                    <p class="text-sm text-gray-300">• 16GB RAM, 1TB SSD</p>
+                                    <p class="font-bold mt-1">$1,299</p>
+                                </div>
+                            </div>
+                            <button
+                                class="mt-3 bg-gradient-to-r from-purple-600 to-cyan-500 text-white px-4 py-2 rounded-lg text-sm">
+                                Order on WhatsApp
+                            </button>
+                        </div>
+
+                        <div class="chat-message chat-received typing-container"
+                            style="animation-delay: 1.1s; opacity: 1">
+                            <div class="flex space-x-1">
+                                <div class="typing-indicator"></div>
+                                <div class="typing-indicator"></div>
+                                <div class="typing-indicator"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-4 border-t border-white/10 flex">
+                        <input type="text" placeholder="Type your search..."
+                            class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <button class="ml-3 bg-gradient-to-r from-purple-600 to-cyan-500 p-3 rounded-xl">
+                            <i class="fas fa-paper-plane text-lg"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-24 px-6 bg-gradient-to-b from-gray-900/50 to-transparent">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Search for Everything</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">From local products to specialized services, Bino helps you
+                    discover and purchase exactly what you need from our trusted business network.</p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
+                <!-- Category 1 -->
+                <div class="category-badge glass-card p-6 text-center hover:border-purple-500/30">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-store text-2xl text-purple-400"></i>
+                    </div>
+                    <h3 class="font-semibold">Local Businesses</h3>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="category-badge glass-card p-6 text-center hover:border-purple-500/30">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-car text-2xl text-cyan-400"></i>
+                    </div>
+                    <h3 class="font-semibold">Transportation</h3>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="category-badge glass-card p-6 text-center hover:border-purple-500/30">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-utensils text-2xl text-purple-400"></i>
+                    </div>
+                    <h3 class="font-semibold">Restaurants</h3>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="category-badge glass-card p-6 text-center hover:border-purple-500/30">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hotel text-2xl text-cyan-400"></i>
+                    </div>
+                    <h3 class="font-semibold">Hotels & Stays</h3>
+                </div>
+
+                <!-- Category 5 -->
+                <div class="category-badge glass-card p-6 text-center hover:border-purple-500/30">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-plane text-2xl text-purple-400"></i>
+                    </div>
+                    <h3 class="font-semibold">Travel & Tours</h3>
+                </div>
+
+                <!-- Category 6 -->
+                <div class="category-badge glass-card p-6 text-center hover:border-purple-500/30">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-home text-2xl text-cyan-400"></i>
+                    </div>
+                    <h3 class="font-semibold">Home Services</h3>
+                </div>
+
+                <!-- Category 7 -->
+                <div class="category-badge glass-card p-6 text-center hover:border-purple-500/30">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-briefcase text-2xl text-purple-400"></i>
+                    </div>
+                    <h3 class="font-semibold">Professional Services</h3>
+                </div>
+
+                <!-- Category 8 -->
+                <div class="category-badge glass-card p-6 text-center hover:border-purple-500/30">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-heartbeat text-2xl text-cyan-400"></i>
+                    </div>
+                    <h3 class="font-semibold">Healthcare</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Bino Section -->
+    <section id="why-bino" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Choose Bino?</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Experience the future of search with our intelligent WhatsApp
+                    assistant that understands your needs and delivers perfect matches.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="glass-card p-8 text-center">
+                    <div class="feature-icon mx-auto mb-6">
+                        <i class="fab fa-whatsapp text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">WhatsApp Native</h3>
+                    <p class="text-gray-300">No app downloads required. Search directly through WhatsApp - the platform
+                        you already use daily.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="glass-card p-8 text-center">
+                    <div class="feature-icon mx-auto mb-6">
+                        <i class="fas fa-bolt text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Instant Results</h3>
+                    <p class="text-gray-300">Get comprehensive search results in seconds. Our AI processes your queries
+                        for immediate, relevant responses.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="glass-card p-8 text-center">
+                    <div class="feature-icon mx-auto mb-6">
+                        <i class="fas fa-globe-americas text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Global Coverage</h3>
+                    <p class="text-gray-300">Search anywhere in the world. From local businesses to international
+                        services, we've got you covered.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="glass-card p-8 text-center">
+                    <div class="feature-icon mx-auto mb-6">
+                        <i class="fas fa-shield-alt text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Verified Results</h3>
+                    <p class="text-gray-300">All businesses and services are verified for authenticity. Connect with
+                        confidence through our trusted platform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How Bino Works Section -->
+    <section id="how-it-works" class="py-24 px-6 bg-gradient-to-b from-gray-900/30 to-transparent">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">How Bino Works</h2>
+                <p class="text-gray-400 max-w-3xl mx-auto">
+                    Bino searches across our network of businesses on your behalf, delivering either instant catalog
+                    options or real-time custom offers - then you can order directly on WhatsApp.
+                </p>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <span class="px-3 py-1 bg-purple-900/30 rounded-full text-sm">Instant Options</span>
+                    <span class="px-3 py-1 bg-cyan-900/30 rounded-full text-sm">Real-Time Options</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Search Flow Cards -->
+                <div class="space-y-6">
+                    <!-- Card 1 -->
+                    <div class="search-flow-card glass-card p-7">
+                        <div class="flex items-start mb-4">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center flex-shrink-0 mr-4">
+                                <span class="font-bold text-lg text-white">1</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Instant Catalog Options</h3>
+                                <p class="text-gray-300 mb-3">Get immediate results from businesses with uploaded
+                                    catalogs - browse, compare prices, and order directly on WhatsApp</p>
+                                <div class="bg-gray-800/50 p-3 rounded-lg mb-3">
+                                    <p class="font-medium">"Show me gaming laptops under $1500" → Instant catalog with
+                                        12 options, specs, prices. Tap to order immediately.</p>
+                                </div>
+                                <p class="text-sm text-purple-300 font-medium">Perfect for: Electronics, fashion, books,
+                                    home goods, and any products with fixed pricing</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="search-flow-card glass-card p-7">
+                        <div class="flex items-start mb-4">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center flex-shrink-0 mr-4">
+                                <span class="font-bold text-lg text-white">2</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Real-Time Custom Offers</h3>
+                                <p class="text-gray-300 mb-3">For unique needs, Bino broadcasts your requirement to
+                                    relevant businesses who respond with personalized offers</p>
+                                <div class="bg-gray-800/50 p-3 rounded-lg mb-3">
+                                    <p class="font-medium">"Need custom birthday cake for 30 people, superhero theme,
+                                        this Saturday" → 4 bakers respond with designs, prices & availability</p>
+                                </div>
+                                <p class="text-sm text-purple-300 font-medium">Perfect for: Custom services, bulk
+                                    orders, event planning, specialized requirements</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="search-flow-card glass-card p-7">
+                        <div class="flex items-start mb-4">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center flex-shrink-0 mr-4">
+                                <span class="font-bold text-lg text-white">3</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Live Competitive Bidding</h3>
+                                <p class="text-gray-300 mb-3">Multiple businesses compete in real-time, giving you the
+                                    best deals and options to choose from</p>
+                                <div class="bg-gray-800/50 p-3 rounded-lg mb-3">
+                                    <p class="font-medium">"Moving 2-bedroom apartment next weekend" → 6 movers respond
+                                        with quotes: $450, $380, $520 (with packing), $400...</p>
+                                </div>
+                                <p class="text-sm text-purple-300 font-medium">Perfect for: Services with variable
+                                    pricing, bulk purchases, time-sensitive needs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Card 4 -->
+                    <div class="search-flow-card glass-card p-7">
+                        <div class="flex items-start mb-4">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center flex-shrink-0 mr-4">
+                                <span class="font-bold text-lg text-white">4</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Instant Availability Check</h3>
+                                <p class="text-gray-300 mb-3">Know what's available right now with real-time stock and
+                                    booking confirmations</p>
+                                <div class="bg-gray-800/50 p-3 rounded-lg mb-3">
+                                    <p class="font-medium">"Table for 4 tonight at 8pm, Italian food" → 3 restaurants
+                                        confirm: 'Available at 8:15pm', 'Available at 7:45pm', 'Waitlist available'</p>
+                                </div>
+                                <p class="text-sm text-purple-300 font-medium">Perfect for: Restaurant bookings, hotel
+                                    rooms, appointment slots, event tickets</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="search-flow-card glass-card p-7">
+                        <div class="flex items-start mb-4">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center flex-shrink-0 mr-4">
+                                <span class="font-bold text-lg text-white">5</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Complete Order on WhatsApp</h3>
+                                <p class="text-gray-300 mb-3">From search to purchase, everything happens in one
+                                    conversation - no app switching required</p>
+                                <div class="bg-gray-800/50 p-3 rounded-lg mb-3">
+                                    <p class="font-medium">"Order the red Nike shoes, size 9" → Payment link sent →
+                                        Order confirmed → Delivery scheduled for tomorrow 2-4pm</p>
+                                </div>
+                                <p class="text-sm text-purple-300 font-medium">Seamless experience: Browse → Select →
+                                    Pay → Track - all within WhatsApp</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="search-flow-card glass-card p-7">
+                        <div class="flex items-start mb-4">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gradient-to-r from-purple-600/20 to-cyan-500/20 flex items-center justify-center flex-shrink-0 mr-4">
+                                <span class="font-bold text-lg text-white">6</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Bulk & Wholesale Requests</h3>
+                                <p class="text-gray-300 mb-3">Get wholesale pricing and bulk deals by connecting
+                                    directly with suppliers and distributors</p>
+                                <div class="bg-gray-800/50 p-3 rounded-lg mb-3">
+                                    <p class="font-medium">"Need 100 corporate gift hampers, budget $50 each" →
+                                        Suppliers respond with catalogs, bulk discounts, customization options</p>
+                                </div>
+                                <p class="text-sm text-purple-300 font-medium">Perfect for: Corporate orders, event
+                                    supplies, wholesale purchases, bulk gifting</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="get-started" class="py-24 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="relative inline-block mb-8">
+                <div
+                    class="absolute inset-0 bg-gradient-to-r from-purple-600 to-cyan-500 rounded-full blur-xl opacity-30 animate-pulse">
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold relative z-10">Ready to Find Anything?</h2>
+            </div>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+                Join thousands of users who discover businesses, services, and opportunities through Bino's intelligent
+                search.
+            </p>
+            <a href="https://wa.me/919800081110?text=Hello%20from%20my%20website" alt="hyperlink">
+
+                <button
+                    class="whatsapp-gradient text-white px-10 py-5 rounded-xl text-xl font-bold btn-ripple inline-flex items-center justify-center mx-auto pulse">
+                    <i class="fab fa-whatsapp mr-4 text-2xl"></i>
+                    Start Searching Now
+                </button>
+            </a>
+            <div class="mt-12 flex justify-center">
+                <div class="bg-white/10 p-4 rounded-xl backdrop-blur-sm border border-white/20">
+                    <p class="text-lg">Search for anything and connect instantly via WhatsApp</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-16 px-6 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-8 md:mb-0">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-gradient-to-r from-[#7e57c2] to-[#26a69a] flex items-center justify-center mr-3">
+                        <span class="font-bold text-white text-xl">B</span>
+                    </div>
+                    <span
+                        class="text-2xl font-bold bg-gradient-to-r from-[#8e7aff] to-[#33ccff] bg-clip-text text-transparent">Bino</span>
+                </div>
+
+                <div class="flex space-x-8">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors font-medium">Terms</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors font-medium">Privacy</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors font-medium">Contact</a>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center text-gray-500">
+                <p>© 2025 Bino. All rights reserved. Your intelligent WhatsApp marketplace.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./script7.js" type="module" alt="script down"></script>
+
+
+</body>
+
+</html>

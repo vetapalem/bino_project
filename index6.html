@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="information AI">
+    <meta name="keywords"
+        content="Infromation chart hotels localLocal Businesses Healthcare Professional Services Home Services Travel & Tours Transportation ">
+    <meta name="author" content="krishna">
+
+    <title>Bino | Intelligent WhatsApp Search Assistant</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./logo.png" alt="favicon down">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles6.css" alt="styles down">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <div class="logo-icon" style="background-color: black;">
+                        <!-- <img src="./logo.png" width="50px" height="20px" alt="icon-down"> -->
+
+                        <i class="fab fa-b"></i>
+                    </div>
+                    <span class="logo-text">Bino</span>
+                </div>
+
+                <div class="nav-links">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#how-it-works" class="nav-link">How It Works</a>
+                    <a href="#deals" class="nav-link">Deals</a>
+                    <a href="#travel" class="nav-link">Travel</a>
+                    <a href="#business" class="nav-link">For Business</a>
+                </div>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <a href="https://wa.me/919800081110?text=Hello%20from%20my%20website">
+
+
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+            <a href="#deals" class="nav-link">Deals</a>
+            <a href="#travel" class="nav-link">Travel</a>
+            <a href="#business" class="nav-link">For Business</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Find Anything <span>Anywhere</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Your intelligent WhatsApp search assistant. Discover, compare, and book instantly.
+                </p>
+
+                <div class="animated-text-container">
+                    <div class="search-example">
+                        <i class="fas fa-search"></i>
+                        <span class="example-text">Try searching for</span>
+                        <span class="example-text" id="animatedExample">restaurants near me</span>
+                    </div>
+                </div>
+
+                <div class="trust-badges">
+                    <div class="badge">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Verified Businesses</span>
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Secure Platform</span>
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-clock"></i>
+                        <span>24/7 Available</span>
+                    </div>
+                </div>
+
+                <div class="whatsapp-widget">
+                    <div class="chat-container">
+                        <div class="chat-header">
+                            <div class="chat-avatar">
+                                <!-- <img src="./logo.png" width="50px" height="20px" alt="icon-down"> -->
+                                <i class="fab fa-b"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold">Bino Assistant</div>
+                                <div class="text-sm text-gray-400">Online • Ready to help</div>
+                            </div>
+                        </div>
+
+                        <div class="chat-messages">
+                            <div class="message user">
+                                Can you find me a good Italian restaurant nearby?
+                            </div>
+                            <div class="message bot">
+                                Found 5 highly-rated Italian restaurants within 1km! 🍝
+                            </div>
+                        </div>
+
+                        <div class="chat-input">
+                            <input type="text" placeholder="Ask me anything...">
+                            <button>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <a style="text-decoration: none;color: aliceblue;" href="https://wa.me/919800081110?text=Menu%20">
+
+                    <button class="cta-button">
+                        <i class="fab fa-whatsapp"></i>
+                        Start Searching on WhatsApp
+
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Categories -->
+    <section class="section" id="categories">
+        <div class="container">
+            <h2 class="section-title">Search Across All Categories</h2>
+            <p class="section-subtitle">Find everything you need across multiple categories instantly</p>
+
+            <div class="categories-grid">
+                <!-- Categories will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Bino?</h2>
+            <p class="section-subtitle">Experience the future of intelligent search through WhatsApp</p>
+
+            <div class="features-grid">
+                <!-- Features will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works in 3 Simple Steps</h2>
+            <p class="section-subtitle">Get instant results in minutes, not hours</p>
+
+            <div class="steps-container">
+                <div class="timeline-line"></div>
+                <div class="steps-grid">
+                    <!-- Steps will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Deals -->
+    <section class="section" id="deals">
+        <div class="container">
+            <h2 class="section-title">Get Exclusive Deals Near You</h2>
+            <p class="section-subtitle">Businesses compete in real-time to offer you the best prices</p>
+
+            <div class="deals-process">
+                <div class="process-step">
+                    <div class="process-icon" style="background: linear-gradient(135deg, #3b82f6, #60a5fa);">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="process-title">Share Location</h3>
+                    <p class="text-gray-400">Tell us where you are</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-icon" style="background: linear-gradient(135deg, #8b5cf6, #a78bfa);">
+                        <i class="fas fa-comment-alt"></i>
+                    </div>
+                    <h3 class="process-title">Make Request</h3>
+                    <p class="text-gray-400">What are you looking for?</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-icon" style="background: linear-gradient(135deg, #10b981, #34d399);">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="process-title">Get Multiple Offers</h3>
+                    <p class="text-gray-400">Businesses compete for you</p>
+                </div>
+            </div>
+
+            <div class="deals-grid">
+                <!-- Deals will be populated by JavaScript -->
+            </div>
+
+            <div class="text-center">
+                <button class="cta-button mb-4">
+                    Start Getting Deals Now
+                </button>
+                <p class="text-gray-400 text-sm">
+                    No signup required • Instant responses • Best prices guaranteed
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="section">
+        <div class="container">
+            <div class="benefits-grid">
+                <!-- Benefits will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Services -->
+    <section class="section" id="travel">
+        <div class="container">
+            <h2 class="section-title">Travel Services</h2>
+            <p class="section-subtitle">Book flights, hotels, transport, and experiences through WhatsApp</p>
+
+            <div class="travel-grid">
+                <!-- Travel services will be populated by JavaScript -->
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="100">0</div>
+                    <div class="stat-label">+ Destinations</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="100000">0</div>
+                    <div class="stat-label">+ Partners</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="24">0</div>
+                    <div class="stat-label">×7 Support</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">Real-time</div>
+                    <div class="stat-label">Responses</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="section">
+        <div class="container">
+            <div class="final-cta">
+                <h2 class="final-title">Ready to Find Anything?</h2>
+                <p class="final-subtitle">Join thousands of users who discover amazing deals every day</p>
+
+                <button class="cta-button">
+                    <i class="fab fa-whatsapp"></i>
+                    Start Searching on WhatsApp
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Works on any device</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>No app required</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>Instant results</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo mb-4">
+                        <div class="logo-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <span class="logo-text">Bino</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">
+                        Your intelligent WhatsApp search assistant for finding anything, anywhere.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">For Business</a></li>
+                        <li><a href="#">For Creators</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Partner Terms</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                    <a href="https://wa.me/919800081110?text=Hello" class="whatsapp-button">
+                        <i class="fab fa-whatsapp"></i>
+                        Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                © 2024 Bino. All rights reserved. WhatsApp is a trademark of WhatsApp LLC.
+            </div>
+        </div>
+    </footer>
+    <script src="./script6.js" alt="script-down"></script>
+
+
+</body>
+
+</html>

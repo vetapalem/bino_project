@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="information AI">
+    <meta name="keywords"
+        content="Infromation chart hotels localLocal Businesses Healthcare Professional Services Home Services Travel & Tours Transportation ">
+    <meta name="author" content="krishna">
+    <title>Contact Form - Send Email</title>
+    <link rel="stylesheet" href="./contactstyle.css" alt="sheet-down">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact Us</h1>
+            <p class="subtitle">Fill out the form below to send us a message directly to our email</p>
+        </header>
+
+        <div class="info-box">
+            <h3>How This Form Works</h3>
+            <p>This form uses the <code>mailto:</code> method. When you click "Send Message", your default email client
+                (like Gmail, Outlook, or Apple Mail) will open with all your form details pre-filled. You'll need to
+                manually send the email from your email client.</p>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="contact-form">
+                <form id="emailForm" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email *</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Enter your message here..."
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message via Email</button>
+                </form>
+
+                <div class="note">
+                    <p><strong>Note:</strong> After clicking the button, your email application will open with a
+                        pre-filled message. You must click "Send" in your email client to actually send the message.</p>
+                </div>
+            </div>
+
+            <div style="display: none;" class="details">
+                <h2>How It Works</h2>
+                <ul>
+                    <li><strong>Method Used:</strong> HTML <code>mailto:</code> protocol</li>
+                    <li><strong>No Backend Required:</strong> Works entirely in the browser</li>
+                    <li><strong>Requirements:</strong> User must have an email client configured</li>
+                    <li><strong>Data Format:</strong> Form data is added to email body</li>
+                    <li><strong>Customization:</strong> You can change the recipient email in the JavaScript</li>
+                </ul>
+
+                <h2 style="margin-top: 30px;">Limitations</h2>
+                <ul>
+                    <li>Requires user to have an email client set up</li>
+                    <li>Less reliable than server-side forms</li>
+                    <li>No confirmation page after sending</li>
+                    <li>Can't handle file attachments easily</li>
+                    <li>Email formatting is basic</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>Contact Form using HTML mailto: method | Works on all modern browsers</p>
+        </footer>
+    </div>
+    <script src="./contactscript.js" alt="contactscript-down"></script>
+
+
+</body>
+
+</html>
